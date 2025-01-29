@@ -1,0 +1,18 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        circle { fill: #fff }
+        text tspan:first-child { fill: #71717b }
+        text tspan:last-child { fill: #0d1117 }
+
+        @media (prefers-color-scheme: dark) {
+            circle { fill: #0d1117 }
+            text tspan:last-child { fill: #fff }
+        }
+    </style>
+    <circle r="250" cx="250" cy="250" />
+    <g transform="translate(250,250)" text-anchor="middle" dominant-baseline="central">
+        <text font-size="50" font-family="monospace">
+            <tspan>project</tspan><tspan>-title</tspan>
+        </text>
+    </g>
+</svg>
